@@ -1,0 +1,123 @@
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+p {
+  line-height: 1.5em;
+  font-size: 16px;
+  text-align: left;
+  margin-bottom: 25px;
+  color: #2F4F4F;
+}
+img {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 139, 0.2), 0 6px 20px 0 rgba(0, 0, 139, 0.19);
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  max-height: 600px;
+}
+
+h3 {
+  margin-top: 50px;
+  margin-bottom:50px;
+}
+ol{
+  padding:20px;
+}
+blockquote p {
+  color:navy;
+}
+.line{
+  border-bottom:1px solid #C0C0C0;
+  margin-bottom: 3px;
+}
+.section {
+  padding: 1em 1em;
+  margin: 0 auto;
+  max-width: 750px;
+}
+.section--gray {
+  border-top: 1px solid #FFFFFF;
+}
+/* Tooltip Wrapper */
+.has-tooltip {
+  position: relative;
+  color: #00CED1;
+}
+.has-tooltip .tooltip {
+  opacity: 0;"Il surf è molto simile a fare l'amore. È sempre bello, non importa quante volte l'hai fatto."
+Paul Strauch, surfer
+
+  visibility: hidden;
+  -webkit-transition: visibility 0s ease 0.5s,opacity .3s ease-in;
+  -moz-transition: visibility 0s ease 0.5s,opacity .3s ease-in;
+  -o-transition: visibility 0s ease 0.5s,opacity .3s ease-in;
+  transition: visibility 0s ease 0.5s,opacity .3s ease-in;
+}
+.has-tooltip:hover .tooltip {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Tooltip Body */
+.tooltip {
+  background-color: #222;
+  bottom: 130%;
+  color: #fff;
+  font-size: 12px;
+  left: 50%;
+  margin-left: -56px;
+  padding: 6px;
+  position: absolute;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: none;
+  width: 100px;
+  z-index: 4;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+}
+
+/* Tooltip Caret */
+.tooltip:after {
+  border-top: 5px solid #2F4F4F;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  bottom: -5px;
+  content: " ";
+  font-size: 0px;
+  left: 50%;
+  line-height: 0%;
+  margin-left: -4px;
+  position: absolute;
+  width: 0px;
+  z-index: 1;
+}
+
+.container (100% width below 540px)
+
+table, th, td {
+  border-top: 0 solid;
+}
+th, td {
+  padding: 15px;
+}
+table{
+border-left:1px solid #2F4F4F;
+border-right:1px solid #2F4F4F;
+margin-bottom: 20px;
+margin-top: 20px;
+}
+
+@media only screen and (min-width: 580px) {
+  .section {
+    margin: 4em auto;
+    padding: 2.5em 3em;
+  }
+  .section--gray {
+    border: 1px solid #FFFFFF;
+  }
+}
