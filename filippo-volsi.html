@@ -71,7 +71,7 @@
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li>
-                    <a class="dropdown-item" href="index.html"
+                    <a class="dropdown-item" href="filippo-volsi.html"
                       ><i class="italy flag"></i>Italiano
                       <i class="fa fa-check text-success ms-2"></i
                     ></a>
@@ -96,7 +96,7 @@
   <article>
   <div
 class="p-5 text-center bg-image shadow-2-strong mb-5"
-style="background-image: url('img/adam-kring-unsplash.jpg'); height: 500px;"
+style="background-image: url('img/adam-kring-unsplash.jpg'); height: 500px; margin-top:58px;"
 >
 <div class="mask" style="background:linear-gradient(to right, rgba(25,25,112, 0),  rgba(0, 0, 0, 1) 97%)">
  <div class="d-flex justify-content-center align-items-center h-100">
@@ -111,7 +111,7 @@ style="background-image: url('img/adam-kring-unsplash.jpg'); height: 500px;"
 <!-- End background image -->
     </header>
     <main>
-  <section id='contact' class='pb-5 text-center'>
+  <section class='pb-5 text-center'  id='about'>
             <figure>
       <img src="img/filippo-volsi.jpg" class='rounded-circle shadow-3-strong m-4 img-fluid'>
       </figure>
@@ -141,7 +141,7 @@ style="background-image: url('img/adam-kring-unsplash.jpg'); height: 500px;"
 > <span class="tooltip tooltip-top">filippovolsi@gmail.com</span></a>
 
 </section>
-<section class='text-center section section--gray' id='about'>
+<section class='text-center section section--gray'>
   <h2>  <strong>About</strong>  </h2>
       <section>
       <p>Ciao, sono Filippo! </p> <p> Ho iniziato un percorso di studi sul Marketing Digitale per specializzarmi nella
@@ -203,7 +203,7 @@ style="background-image: url('img/adam-kring-unsplash.jpg'); height: 500px;"
       src="img/surf-sostenibile-1.jpg"
       class="img-fluid"
     />
-    <a href="#!">
+    <a href="blog.html">
       <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
     </a>
   </div>
@@ -212,7 +212,7 @@ style="background-image: url('img/adam-kring-unsplash.jpg'); height: 500px;"
     <p class="card-text">
       Tra pochi anni praticheremo surf in un mare di plastica. Scopri come cavalcare l’onda della sostenibilità e salvaguardare il mondo sottomarino.
     </p>
-    <a href="#!" class="btn btn-primary">Scopri di più</a>
+    <a href="blog.html" class="btn btn-primary">Scopri di più</a>
   </div>
 </div>
 
@@ -232,18 +232,53 @@ style="background-image: url('img/adam-kring-unsplash.jpg'); height: 500px;"
       <p>  Al fine di distinguersi dalla concorrenza, ogni impresa richiede una strategia distinta, che segua i suoi bisogni e che
         possa aiutarla a raggiungere i suoi traguardi.</p>
       <p>    Il primo passo è organizzare un incontro per chiarire l’identità della tua azienda, </p>
-
+  <p class='text-center'>Contattami qui &#129047; </p>
 
 
       </section>
 
       <!-- contact form-->
 
+<section  id='contact' class='text-center  section section--gray'>
+<section class='section-form'>
 
-    <section class='text-center'>
+  <div class="container-form">
+    <h3 class='mb-4'><strong>Contattami</strong></h3>
 
-    <a href="#contact" class="btn btn-primary mb-5">Contattami</a>
-    </section>
+    <form action="https://formspree.io/f/xrgrgbvb" method='POST' id='my-form'>
+
+      <div class="form-group">
+        <label for="firstname">Nome</label>
+        <input type="text" id='firstname' name='firstname'>
+      </div>
+
+      <div class="form-group">
+        <label for="lastname">Cognome</label>
+        <input type="text" id='lastname' name="lastname">
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="text" id='email' name="email">
+      </div>
+
+      <div class="form-group">
+        <label for="message">Messaggio</label>
+        <textarea name="message" id='message' cols='30' rows='10'></textarea>
+      </div>
+
+<button class='button-form' type='submit'>Invia</button>
+
+    </form>
+  </div>
+
+  <div id='status'></div>
+</section>
+</section>
+
+
+
+
 
     </main>
   </page>
